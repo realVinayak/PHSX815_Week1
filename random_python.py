@@ -62,6 +62,7 @@ def load_random_num_from_file(file_name):
     random_num_file.close()
 
     random_nums_list = [float(random_num_str) for random_num_str in random_nums_str.split('\n')]
+    print('showing plot from file')
     show_plot(random_nums_list)
 
 
